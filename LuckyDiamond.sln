@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyDiamond.Plugins", "LuckyDiamond.Plugins.csproj", "{28375E07-C567-A0EC-21EC-639402C91688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyDiamond", "LuckyDiamond.csproj", "{57F43258-0160-1862-2537-5BE685A88BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyDiamond.Editor.Plugins", "LuckyDiamond.Editor.Plugins.csproj", "{C3275345-B21F-8FA2-6663-AC82201F2B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyDiamond.Editor", "LuckyDiamond.Editor.csproj", "{C3BC7A8F-94B7-3557-092C-D41E81751249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28375E07-C567-A0EC-21EC-639402C91688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28375E07-C567-A0EC-21EC-639402C91688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28375E07-C567-A0EC-21EC-639402C91688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28375E07-C567-A0EC-21EC-639402C91688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F43258-0160-1862-2537-5BE685A88BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F43258-0160-1862-2537-5BE685A88BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F43258-0160-1862-2537-5BE685A88BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F43258-0160-1862-2537-5BE685A88BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3275345-B21F-8FA2-6663-AC82201F2B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3275345-B21F-8FA2-6663-AC82201F2B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3275345-B21F-8FA2-6663-AC82201F2B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3275345-B21F-8FA2-6663-AC82201F2B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BC7A8F-94B7-3557-092C-D41E81751249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BC7A8F-94B7-3557-092C-D41E81751249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BC7A8F-94B7-3557-092C-D41E81751249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BC7A8F-94B7-3557-092C-D41E81751249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f162356e950417448910da643df9d9a2
+timeCreated: 1478129437
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _GlowEffect1: {fileID: 2800000, guid: 7ee9874ec4f3b2e428ee51c66dd67fb5, type: 3}
+  - _GlowEffect2: {fileID: 2800000, guid: 44fe02b3d81d4fe4f9bc562c452a9390, type: 3}
+  - _GlowEffect3: {fileID: 2800000, guid: ae481c7c4f24dc64f8857a5429b50afa, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

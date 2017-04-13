@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: f75fcd4516e4f3d4a83044bc102feb30
+timeCreated: 1491923380
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pipe_1
+    100004: Pipe_1_1
+    100006: Pipe_1_2
+    100008: Pipe_1_3
+    100010: Pipe_1_4
+    100012: Pipe_1_5
+    100014: Pipe_1_6
+    100016: Pipe_1_7
+    100018: Pipe_1_8
+    100020: Pipe_2
+    100022: Pipe_2_1
+    100024: Pipe_2_2
+    100026: Pipe_2_3
+    100028: Pipe_2_4
+    100030: Pipe_2_5
+    100032: Pipe_2_6
+    100034: Pipe_2_7
+    100036: Pipes_Comb_LAYOUT_PIPES
+    100038: Rudnik_Buildings
+    100040: Rudnik_Level_1
+    100042: Rudnik_Level_2
+    100044: Rudnik_Level_3
+    100046: Runik_Comb_LAYOUT_RUDNIK
+    100048: TopoPovehnost_LAYOUT_TOPOPOVERHNOST
+    100050: TopoPovehnost_Square_Bottom
+    100052: TopoPovehnost_Square_CUT
+    100054: TopoPovehnost_Square_CUT_MeshPart0
+    100056: TopoPovehnost_Square_CUT_MeshPart1
+    100058: TopoPovehnost_Square_CUT_MeshPart2
+    100060: TopoPovehnost_Square_CUT_MeshPart3
+    400000: //RootNode
+    400002: Pipe_1
+    400004: Pipe_1_1
+    400006: Pipe_1_2
+    400008: Pipe_1_3
+    400010: Pipe_1_4
+    400012: Pipe_1_5
+    400014: Pipe_1_6
+    400016: Pipe_1_7
+    400018: Pipe_1_8
+    400020: Pipe_2
+    400022: Pipe_2_1
+    400024: Pipe_2_2
+    400026: Pipe_2_3
+    400028: Pipe_2_4
+    400030: Pipe_2_5
+    400032: Pipe_2_6
+    400034: Pipe_2_7
+    400036: Pipes_Comb_LAYOUT_PIPES
+    400038: Rudnik_Buildings
+    400040: Rudnik_Level_1
+    400042: Rudnik_Level_2
+    400044: Rudnik_Level_3
+    400046: Runik_Comb_LAYOUT_RUDNIK
+    400048: TopoPovehnost_LAYOUT_TOPOPOVERHNOST
+    400050: TopoPovehnost_Square_Bottom
+    400052: TopoPovehnost_Square_CUT
+    400054: TopoPovehnost_Square_CUT_MeshPart0
+    400056: TopoPovehnost_Square_CUT_MeshPart1
+    400058: TopoPovehnost_Square_CUT_MeshPart2
+    400060: TopoPovehnost_Square_CUT_MeshPart3
+    2300000: Pipe_1_1
+    2300002: Pipe_1_2
+    2300004: Pipe_1_3
+    2300006: Pipe_1_4
+    2300008: Pipe_1_5
+    2300010: Pipe_1_6
+    2300012: Pipe_1_7
+    2300014: Pipe_1_8
+    2300016: Pipe_2_1
+    2300018: Pipe_2_2
+    2300020: Pipe_2_3
+    2300022: Pipe_2_4
+    2300024: Pipe_2_5
+    2300026: Pipe_2_6
+    2300028: Pipe_2_7
+    2300030: Rudnik_Buildings
+    2300032: Rudnik_Level_1
+    2300034: Rudnik_Level_2
+    2300036: Rudnik_Level_3
+    2300038: TopoPovehnost_Square_Bottom
+    2300040: TopoPovehnost_Square_CUT_MeshPart0
+    2300042: TopoPovehnost_Square_CUT_MeshPart1
+    2300044: TopoPovehnost_Square_CUT_MeshPart2
+    2300046: TopoPovehnost_Square_CUT_MeshPart3
+    3300000: Pipe_1_1
+    3300002: Pipe_1_2
+    3300004: Pipe_1_3
+    3300006: Pipe_1_4
+    3300008: Pipe_1_5
+    3300010: Pipe_1_6
+    3300012: Pipe_1_7
+    3300014: Pipe_1_8
+    3300016: Pipe_2_1
+    3300018: Pipe_2_2
+    3300020: Pipe_2_3
+    3300022: Pipe_2_4
+    3300024: Pipe_2_5
+    3300026: Pipe_2_6
+    3300028: Pipe_2_7
+    3300030: Rudnik_Buildings
+    3300032: Rudnik_Level_1
+    3300034: Rudnik_Level_2
+    3300036: Rudnik_Level_3
+    3300038: TopoPovehnost_Square_Bottom
+    3300040: TopoPovehnost_Square_CUT_MeshPart0
+    3300042: TopoPovehnost_Square_CUT_MeshPart1
+    3300044: TopoPovehnost_Square_CUT_MeshPart2
+    3300046: TopoPovehnost_Square_CUT_MeshPart3
+    4300000: Pipe_1_1
+    4300002: Pipe_1_2
+    4300004: Pipe_1_3
+    4300006: Pipe_1_4
+    4300008: Pipe_1_5
+    4300010: Pipe_1_6
+    4300012: Pipe_1_7
+    4300014: Pipe_1_8
+    4300016: Pipe_2_1
+    4300018: Pipe_2_2
+    4300020: Pipe_2_3
+    4300022: Pipe_2_4
+    4300024: Pipe_2_5
+    4300026: Pipe_2_6
+    4300028: Pipe_2_7
+    4300030: Rudnik_Level_1
+    4300032: Rudnik_Level_2
+    4300034: Rudnik_Level_3
+    4300036: Rudnik_Buildings
+    4300038: TopoPovehnost_Square_CUT_MeshPart0
+    4300040: TopoPovehnost_Square_CUT_MeshPart1
+    4300042: TopoPovehnost_Square_CUT_MeshPart2
+    4300044: TopoPovehnost_Square_CUT_MeshPart3
+    4300046: TopoPovehnost_Square_Bottom
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

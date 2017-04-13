@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369df1842c7c770409c67bb5c6b3ba63, type: 3}
+  m_Name: EngineScenario
+  m_EditorClassIdentifier: 
+  ScenarioName: EngineAnimation
+  scenarioSteps:
+  - {fileID: 11400000, guid: 713a16d1af92d7c418868c202419abe1, type: 2}
+  - {fileID: 11400000, guid: 77e3b7a4182004a4c82060f6857b4a43, type: 2}
+  - {fileID: 11400000, guid: c7767147e715cbd41ac0372f5153839d, type: 2}
+  - {fileID: 11400000, guid: e4a0a12835c0f0342b42f4fa7dd8761e, type: 2}
+  - {fileID: 11400000, guid: 65cdf4d1b97b8bb4e952f5f445eb8ce4, type: 2}

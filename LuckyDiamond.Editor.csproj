@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3BC7A8F-94B7-3557-092C-D41E81751249}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_METRO;UNITY_METRO_API;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;ENABLE_EVENT_QUEUE;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;CURL_STATICLIB;ENABLE_VR;UNITY_WSA;ENABLE_DOTNET;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;VUFORIA_WSA_SETTINGS</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_METRO;UNITY_METRO_API;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;ENABLE_EVENT_QUEUE;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;CURL_STATICLIB;ENABLE_VR;UNITY_WSA;ENABLE_DOTNET;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;VUFORIA_WSA_SETTINGS</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WSA.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WSA.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro">
+      <HintPath>Assets\TextMesh Pro\Plugins\TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-Editor">
+      <HintPath>Assets\TextMesh Pro\Plugins\Editor\TextMeshPro-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-Editor-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="LuckyDiamond.Plugins.csproj">
+      <Project>{28375E07-C567-A0EC-21EC-639402C91688}</Project>
+      <Name>LuckyDiamond.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="LuckyDiamond.csproj">
+      <Project>{57F43258-0160-1862-2537-5BE685A88BE7}</Project>
+      <Name>LuckyDiamond</Name>
+    </ProjectReference>
+    <ProjectReference Include="LuckyDiamond.Editor.Plugins.csproj">
+      <Project>{C3275345-B21F-8FA2-6663-AC82201F2B08}</Project>
+      <Name>LuckyDiamond.Editor.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\HoloToolkit-UnitTests\Editor\Utilities\Extensions\VectorExtensionsTests.cs" />
+    <Compile Include="Assets\HoloToolkit\Build\Editor\BuildDeployPortal.cs" />
+    <Compile Include="Assets\HoloToolkit\Build\Editor\BuildDeployPrefs.cs" />
+    <Compile Include="Assets\HoloToolkit\Build\Editor\BuildDeployTools.cs" />
+    <Compile Include="Assets\HoloToolkit\Build\Editor\BuildDeployWindow.cs" />
+    <Compile Include="Assets\HoloToolkit\Build\Editor\BuildSLNUtilities.cs" />
+    <Compile Include="Assets\HoloToolkit\Build\Editor\HoloToolkitCommands.cs" />
+    <Compile Include="Assets\HoloToolkit\Build\Editor\XdeGuestLocator.cs" />
+    <Compile Include="Assets\HoloToolkit\Input\Scripts\Editor\EditorHandsMaterialInspector.cs" />
+    <Compile Include="Assets\HoloToolkit\Input\Scripts\Voice\Editor\KeywordAndKeyCodeDrawer.cs" />
+    <Compile Include="Assets\HoloToolkit\Input\Scripts\Voice\Editor\SpeechInputHandlerEditor.cs" />
+    <Compile Include="Assets\HoloToolkit\Input\Scripts\Voice\Editor\SpeechInputSourceEditor.cs" />
+    <Compile Include="Assets\HoloToolkit\Sharing\Scripts\Editor\SharingMenu.cs" />
+    <Compile Include="Assets\HoloToolkit\Sharing\Scripts\Editor\SharingStageEditor.cs" />
+    <Compile Include="Assets\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\Editor\RoomMeshExporter.cs" />
+    <Compile Include="Assets\HoloToolkit\SpatialSound\Scripts\UAudioManager\Editor\UAudioManagerBaseEditor.cs" />
+    <Compile Include="Assets\HoloToolkit\SpatialSound\Scripts\UAudioManager\Editor\UAudioManagerEditor.cs" />
+    <Compile Include="Assets\HoloToolkit\SpatialSound\Scripts\UAudioManager\Editor\UAudioMiniManagerEditor.cs" />
+    <Compile Include="Assets\HoloToolkit\SpatialSound\Scripts\UAudioManager\Editor\UAudioProfiler.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\AutoConfigureMenu.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\AutoConfigureWindow.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\CapabilitySettingsWindow.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\EditorGUIExtensions.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\EditorGUILayoutExtensions.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\EnforceEditorSettings.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\ExternalProcess.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\LayerMaskExtensions.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\ProjectSettingsWindow.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\SceneSettingsWindow.cs" />
+    <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Adapter01\Editor\Scripts\Adapter01Editor.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Grouper\Editor\Scripts\GrouperEditor.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Grouper\Editor\Scripts\GrouperEditorDraw.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Grouper\Editor\Scripts\GrouperEditorStructure.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Grouper\Editor\Scripts\GrouperEditorStyles.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\Arrow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\ArrowManager.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\CustomHandles.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\EditorCameraBestViewFinder.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\EditorScreenShooter.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\ModelExloderEditorDraw.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\ModelExploderEditor.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\ModelExploderEditorGUI.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\ModelExploderEditorStructure.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\ModelExploderEditorStyles.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\ModelExploderEditorSummary.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Scripts\Windows\ChangeStatesNameWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\Editor\Scripts\PlayerEditor.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\NodeEditor\Editor\Menus\NodeMenus.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\NodeEditor\Editor\Utils\NodeUtils.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\NodeEditor\Editor\Views\NodePropertyView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\NodeEditor\Editor\Views\NodeWorkView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\NodeEditor\Editor\Views\ViewBase.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\NodeEditor\Editor\Windows\NodeEditorWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Player\NodeEditor\Editor\Windows\NodePopupWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\TimelineEditor.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Utilities\Vector2Interpolator.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\ChaptersHeadsView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\HeaderView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\KeynotesView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TimelineViewBase.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\CornerRectView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\SecondPanelView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\TopPanelView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\TracksHeadersView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\TracksViewBase.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkViewSubviews\ChaptersSubview.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkViewSubviews\LinesView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkViewSubviews\TimeSliderView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkViewSubviews\TimelineSubview.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkViewSubviews\TracksSubview.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkViewSubviews\VoidView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksSubviews\WorkViewSubviews\WorkViewBase.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\TracksView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Views\WindowsView.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Windows\ChangeKeynotesDescriptionWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Windows\ChangeKeynotesNameWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Windows\ChangeTracksNameWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Windows\TimelineExceptionWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Timeline\Editor\Scripts\Windows\TimelineWindow.cs" />
+    <Compile Include="Assets\Meta\Tools\Components\Tweener\Editor\Scripts\TweenerEditor.cs" />
+    <Compile Include="Assets\Meta\Tools\Editor\Scripts\CustomGUI.cs" />
+    <Compile Include="Assets\Meta\Tools\Editor\Scripts\EditorRuntime.cs" />
+    <Compile Include="Assets\Repairer\Materials\_MK\_MKGlow\_Internal\Editor\MKGlowEditor.cs" />
+    <Compile Include="Assets\Repairer\Scripts\Editor\ScenarioStepEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Alrosa\Materials\Simple.shader" />
+    <None Include="Assets\Alrosa\Materials\Transparent.shader" />
+    <None Include="Assets\HoloToolkit\Input\Shaders\Cursor.shader" />
+    <None Include="Assets\HoloToolkit\Input\Shaders\CursorShader.shader" />
+    <None Include="Assets\HoloToolkit\Input\Shaders\EditorHands.shader" />
+    <None Include="Assets\HoloToolkit\Input\Shaders\SpecularHighlight.shader" />
+    <None Include="Assets\HoloToolkit\Input\Tests\Shaders\button_unlit_shader.shader" />
+    <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Occlusion.shader" />
+    <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\SpatialMappingTap.shader" />
+    <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Wireframe.shader" />
+    <None Include="Assets\HoloToolkit\SpatialUnderstanding\Materials\SpatialMappingSurface.shader" />
+    <None Include="Assets\HoloToolkit\SpatialUnderstanding\Materials\SpatialUnderstandingSurface.shader" />
+    <None Include="Assets\HoloToolkit\UI\Fonts\LICENSE.txt" />
+    <None Include="Assets\HoloToolkit\UI\Shaders\3DTextShader.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\BlinnPhongConfigurable.cginc" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\BlinnPhongConfigurable.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\BlinnPhongConfigurableTransparent.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\FastConfigurable.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\HoloToolkitCommon.cginc" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\LambertianConfigurable.cginc" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\LambertianConfigurable.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\LambertianConfigurableTransparent.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\StandardFast.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurable.cginc" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurable.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurableTransparent.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitNoDepthTest.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurable.cginc" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurable.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurableTransparent.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\WindowOcclusion.shader" />
+    <None Include="Assets\HoloToolkit\Utilities\Shaders\macro.cginc" />
+    <None Include="Assets\LeanTween\License.txt" />
+    <None Include="Assets\LeanTween\ReadMe.txt" />
+    <None Include="Assets\Meta\Art\MetaFrame\Shaders\MetaFrameShader.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\EditorCameraGridShader.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\EditorGridShader.cginc" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\EditorGridShader.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\EditorWireframeShader.cginc" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\EditorWireframeShader.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\Romb.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\Torus.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\UnlitConfigurable.cginc" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\UnlitConfigurable.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\UnlitConfigurableTransparent.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\VertexLitConfigurable.cginc" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\VertexLitConfigurable.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\VertexLitConfigurableTransparent.shader" />
+    <None Include="Assets\Meta\Tools\Components\ModelExploder\Editor\Shaders\Wireframe.shader" />
+    <None Include="Assets\Meta\Tools\Editor\Shaders\InEditorSelectionShader.cginc" />
+    <None Include="Assets\Meta\Tools\Editor\Shaders\InEditorSelectionShader.shader" />
+    <None Include="Assets\Meta\Tools\Editor\Shaders\SelectionShader.shader" />
+    <None Include="Assets\Meta\Tools\Editor\Shaders\SelectionShader2.shader" />
+    <None Include="Assets\Meta\Tools\Editor\Shaders\SelectionShader3.shader" />
+    <None Include="Assets\Meta\Tools\Resources\Shaders\UnlitTransparent.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingBlur.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingComposite.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingCut.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingOpaque.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingTransparent.shader" />
+    <None Include="Assets\Repairer\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\Repairer\InfoPanels\Fonts\characters.txt" />
+    <None Include="Assets\Repairer\InfoPanels\Shaders\PanelOpenerTextMaskShader.shader" />
+    <None Include="Assets\Repairer\InfoPanels\Shaders\TMProClipped.cginc" />
+    <None Include="Assets\Repairer\InfoPanels\Shaders\TMPro_PropertiesClipped.cginc" />
+    <None Include="Assets\Repairer\InfoPanels\Shaders\TMPro_SDF_Masked.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_DI.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_DSI.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_N.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_NI.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_NS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Mobile\SFS_M_NSI.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_S_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_S_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_S_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_S_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_S_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_D__S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_Dt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_Dt_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_S_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_S_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_S_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_S_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_S_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_N__S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_Nt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_Pr_Nt_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_S_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_S_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_S_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_S_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_S_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_D__S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_Dt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_Dt_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_S_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_S_DS.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_S_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_S_ST.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_S_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N_T.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_N__S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_Nt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\SFS_St_Nt_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_Dt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_N.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_Nt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_TeA_St.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_Te_D.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_Te_Dt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_Te_N.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_Te_Nt.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_Te_S.shader" />
+    <None Include="Assets\Repairer\Materials\Bit2Good\SFS\Shaders\Terrain\SFS_Te_St.shader" />
+    <None Include="Assets\Repairer\Materials\InfoPanels\Shaders\PanelOpenerTextMaskShader.shader" />
+    <None Include="Assets\Repairer\Materials\InfoPanels\Shaders\TMProClipped.cginc" />
+    <None Include="Assets\Repairer\Materials\InfoPanels\Shaders\TMPro_PropertiesClipped.cginc" />
+    <None Include="Assets\Repairer\Materials\InfoPanels\Shaders\TMPro_SDF_Masked.shader" />
+    <None Include="Assets\Repairer\Materials\SelectionShaders\HoloMaterial\Glow.shader" />
+    <None Include="Assets\Repairer\Materials\SelectionShaders\HoloMaterial\SelectionShader3.shader" />
+    <None Include="Assets\Repairer\Materials\TransparentGlow.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumpSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumped.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-Glossy.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-SoftEdgeUnlit.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Emission\MK_Emission-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumpSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumped.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-Glossy.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-Parallax.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-ParallaxSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Lightmapped\MK_Lightmap-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Lightmapped\MK_Lightmap-DiffuseBumped.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Mobile\MK_Mobile-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumpSpec-1DirectionalLight.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumpSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumped.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumpRim.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumpSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumped.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-DiffuseDetail.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-DiffuseRim.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-Glossy.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-Parallax.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-ParallaxSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-Additive.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-AdditiveBlend.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-AdditiveMultiply.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-AdditiveSoft.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-Blend.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-MulitplyDouble.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-Multiply.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-PremultiplyBlend.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumped.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpedNoLight.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-Glossy.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-Parallax.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-ParallaxSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Sprites\MK_Sprite-Default.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Sprites\MK_Sprite-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Toon\MK_Toon-Basic.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Toon\MK_Toon-BasicOutline.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-Diffuse.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpRim.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumped.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseRim.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-Parallax.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-ParallaxSpec.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Unlit\MK_Unlit-Normal.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Unlit\MK_Unlit-Transparent.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKBase\Unlit\MK_Unlit-TransparentCutout.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKGlowEffect\MKGlowBlur.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKGlowEffect\MKGlowBlurVHP.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKGlowEffect\MKGlowCompose.shader" />
+    <None Include="Assets\Repairer\Materials\_MK\_MKGlow\_Shader\_MKGlowEffect\MKGlowRender.shader" />
+    <None Include="Assets\Repairer\Scripts\LabelLink\Shaders\HoloToolkitCommon.cginc" />
+    <None Include="Assets\Repairer\Scripts\LabelLink\Shaders\LabelShader.cginc" />
+    <None Include="Assets\Repairer\Scripts\LabelLink\Shaders\LabelShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />
+    <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
+    <None Include="Assets\StreamingAssets\QCAR\Engine.xml" />
+    <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\license_3rdpartynotice.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\readme_SDK.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43841b71b0f25544a8bc99e7c4037b22, type: 3}
+  m_Name: Deselect1
+  m_EditorClassIdentifier: 
+  stepType: 3
+  waitTillTheEnd: 0
+  go: {fileID: 0}
+  waitCommand: 1
+  time: 87879
+  clip: {fileID: 8300000, guid: 221f5362e28a96042aa0cc45eb5d6d09, type: 3}
+  replacedMaterial: {fileID: 0}
+  animatorParameter: 
+  parameterType: 9
+  boolType: 0
+  floatType: 0
+  intType: 0
+  objectActive: 1
+  materialActive: 1

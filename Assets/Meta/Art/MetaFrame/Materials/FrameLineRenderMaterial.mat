@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FrameLineRenderMaterial
+  m_Shader: {fileID: 4800000, guid: f162356e950417448910da643df9d9a2, type: 3}
+  m_ShaderKeywords: _GLOWFXIO_ON _NODE_6532_ON _NODE_9474_ON _PANNERIO_ON _PULSEFXIO_ON
+    _PULSEON_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Caustic1
+      second:
+        m_Texture: {fileID: 2800000, guid: 7ee9874ec4f3b2e428ee51c66dd67fb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Caustic2
+      second:
+        m_Texture: {fileID: 2800000, guid: 44fe02b3d81d4fe4f9bc562c452a9390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Caustic3
+      second:
+        m_Texture: {fileID: 2800000, guid: ae481c7c4f24dc64f8857a5429b50afa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _GlowEffect1
+      second:
+        m_Texture: {fileID: 2800000, guid: 7ee9874ec4f3b2e428ee51c66dd67fb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _GlowEffect2
+      second:
+        m_Texture: {fileID: 2800000, guid: 44fe02b3d81d4fe4f9bc562c452a9390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _GlowEffect3
+      second:
+        m_Texture: {fileID: 2800000, guid: ae481c7c4f24dc64f8857a5429b50afa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 7fa27da625fac8a46b72ac5c244d992f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseMask
+      second:
+        m_Texture: {fileID: 2800000, guid: bd3c25498569a2d4288b8943b7346a7d, type: 3}
+        m_Scale: {x: 8, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Shape
+      second:
+        m_Texture: {fileID: 2800000, guid: 7fa27da625fac8a46b72ac5c244d992f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8143
+      second:
+        m_Texture: {fileID: 2800000, guid: 6981f34062199cf4e9a105e3ebfb1e94, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8440
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_9279
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 1
+    - first:
+        name: _CoreCoef
+      second: 0.5
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Fade1
+      second: 1
+    - first:
+        name: _Fade2
+      second: 1
+    - first:
+        name: _FadeIn
+      second: 0
+    - first:
+        name: _FadeLevel
+      second: 0.001
+    - first:
+        name: _FadeOut
+      second: 0
+    - first:
+        name: _FrontFadeLevel
+      second: 0.001
+    - first:
+        name: _GlowFXIO
+      second: 1
+    - first:
+        name: _InvFade
+      second: 1.0244642
+    - first:
+        name: _MasterLevel
+      second: 1
+    - first:
+        name: _NoiseCoef
+      second: 0
+    - first:
+        name: _PannerIO
+      second: 1
+    - first:
+        name: _PulseFXIO
+      second: 1
+    - first:
+        name: _PulseFader
+      second: 1
+    - first:
+        name: _PulseIO
+      second: 0
+    - first:
+        name: _PulseOn
+      second: 1
+    - first:
+        name: _Thickness
+      second: 2
+    - first:
+        name: _WhiteoutCoef
+      second: 0.39285713
+    - first:
+        name: _node_1758
+      second: 0
+    - first:
+        name: _node_2702
+      second: 0
+    - first:
+        name: _node_3999
+      second: 0
+    - first:
+        name: _node_4473
+      second: 0
+    - first:
+        name: _node_6532
+      second: 1
+    - first:
+        name: _node_6930
+      second: 1.8
+    - first:
+        name: _node_9474
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.22597241, g: 0.43793103, b: 0.43793103, a: 1}
+    - first:
+        name: _Color1
+      second: {r: 0, g: 0.86764693, b: 1, a: 1}
+    - first:
+        name: _Color2
+      second: {r: 0, g: 0.25, b: 1, a: 1}
+    - first:
+        name: _Color3
+      second: {r: 0.19700003, g: 0.2914705, b: 1, a: 1}
+    - first:
+        name: _CoreColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EndColor
+      second: {r: 0, g: 0.04827571, b: 1, a: 1}
+    - first:
+        name: _EndColor1
+      second: {r: 0.509, g: 0.56676465, b: 1, a: 1}
+    - first:
+        name: _EndColor2
+      second: {r: 0.747, g: 0.7767647, b: 1, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0, g: 0.43793103, b: 0.43793103, a: 1}
+    - first:
+        name: _StartColor
+      second: {r: 0.99607843, g: 0, b: 0, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _WhiteoutColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: __Color
+      second: {r: 0.448877, g: 0.559, b: 0.559, a: 1}
