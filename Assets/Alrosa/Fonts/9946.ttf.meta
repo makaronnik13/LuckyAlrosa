@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6e33606eb77282d498c792bc3d2ccbf6
+timeCreated: 1492528793
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Forum
+  fontNames:
+  - Forum
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

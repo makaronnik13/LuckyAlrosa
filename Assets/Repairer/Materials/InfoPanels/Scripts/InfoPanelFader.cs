@@ -47,7 +47,6 @@ public class InfoPanelFader : MonoBehaviour {
 
         foreach (Image img in ImagesToFade)
         {
-            Debug.Log(img.color);
             BaseColors.Add(img.color);
         }
         HideImmediately();
@@ -55,7 +54,6 @@ public class InfoPanelFader : MonoBehaviour {
 
     public void Show(System.Action callback = null)
     {
-        Debug.Log("show");
 
         wantedState = 1;
         if (state == 0)
@@ -143,7 +141,6 @@ public class InfoPanelFader : MonoBehaviour {
 
     public void Hide(System.Action callback = null)
     {
-        Debug.Log("hide");
 
         wantedState = 0;
         if (state == 2)
@@ -207,8 +204,6 @@ public class InfoPanelFader : MonoBehaviour {
 
     public void HideImmediately()
     {
-        Debug.Log("hide im");
-
         state = 0;
         Color c;
         for (int i = 0; i < mats.Length; i++)

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyAlrosa.Plugins", "LuckyAlrosa.Plugins.csproj", "{3E71B5B9-8191-CA7A-857F-069EF6BE6677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyAlrosa", "LuckyAlrosa.csproj", "{71B98D7B-436A-A848-B6AB-84AA9093A9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyAlrosa.Editor.Plugins", "LuckyAlrosa.Editor.Plugins.csproj", "{FD4FD6E1-8DB5-58AB-8152-469FF2C514C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyAlrosa.Editor", "LuckyAlrosa.Editor.csproj", "{1E1B84DF-AACF-5254-2EF0-74F2142A26E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E71B5B9-8191-CA7A-857F-069EF6BE6677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E71B5B9-8191-CA7A-857F-069EF6BE6677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E71B5B9-8191-CA7A-857F-069EF6BE6677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E71B5B9-8191-CA7A-857F-069EF6BE6677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B98D7B-436A-A848-B6AB-84AA9093A9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B98D7B-436A-A848-B6AB-84AA9093A9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B98D7B-436A-A848-B6AB-84AA9093A9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B98D7B-436A-A848-B6AB-84AA9093A9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4FD6E1-8DB5-58AB-8152-469FF2C514C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4FD6E1-8DB5-58AB-8152-469FF2C514C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4FD6E1-8DB5-58AB-8152-469FF2C514C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4FD6E1-8DB5-58AB-8152-469FF2C514C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1B84DF-AACF-5254-2EF0-74F2142A26E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1B84DF-AACF-5254-2EF0-74F2142A26E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1B84DF-AACF-5254-2EF0-74F2142A26E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1B84DF-AACF-5254-2EF0-74F2142A26E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

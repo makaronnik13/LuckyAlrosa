@@ -45,10 +45,12 @@ public class HitechLabelController : MonoBehaviour
             case HitechLabelControllerState.Opening:
                 LeanTween.cancel(gameObject);
                 Color c1 = baseColor;
+                Color c2 = Color.white;
                 c1.a = 0;
+                c2.a = 0;
                 if (text)
                 {
-                    text.color = c1;
+                    text.color = c2;
                 }
                 if (img && !useFader)
                 {
@@ -58,10 +60,11 @@ public class HitechLabelController : MonoBehaviour
                 {
                     counter = val;
                     if (labelMat != null) labelMat.SetFloat("_PercentOfAppearing", counter);
-                    c1.a = counter;
+                    c1.a = counter/2;
+                    c2.a = counter;
                     if (text)
                     {
-                        text.color = c1;
+                        text.color = c2;
                     }
                     if (img && !useFader)
                     {
@@ -74,28 +77,30 @@ public class HitechLabelController : MonoBehaviour
                 break;
             case HitechLabelControllerState.Hiding:
                 LeanTween.cancel(gameObject);
-                Color c2 = baseColor;
-                c2.a = 0;
+                Color c3 = baseColor;
+                Color c4 = Color.white;
+                c4.a = 0;
+                c3.a = 0;
                 if (text)
                 {
-                    text.color = c2;
+                    text.color = c4;
                 }
                 if (img && !useFader)
                 {
-                    img.color = c2;
+                    img.color = c3;
                 }
                 LeanTween.value(gameObject, counter, 0f, timeOfShowingAndHiding * counter).setOnUpdate((float val) =>
                 {
                     counter = val;
                     if (labelMat != null) labelMat.SetFloat("_PercentOfAppearing", counter);
-                    c2.a = counter;
+                    c3.a = counter;
                     if (text)
                     {
-                        text.color = c2;
+                        text.color = c4;
                     }
                     if (img && !useFader)
                     {
-                        img.color = c2;
+                        img.color = c3;
                     }
                 }).setOnComplete(() =>
                 {
@@ -140,10 +145,12 @@ public class HitechLabelController : MonoBehaviour
         counter = 0;
         if (labelMat != null) labelMat.SetFloat("_PercentOfAppearing", 0f);
         Color c = baseColor;
+        Color cc = Color.white;
         c.a = 0f;
+        cc.a = 0f;
         if (text)
         {
-            text.color = c;
+            text.color = cc;
         }
         if (img && !useFader)
         {

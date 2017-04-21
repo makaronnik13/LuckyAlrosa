@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Pipe_1_5_mat
-  m_Shader: {fileID: 4800000, guid: aed1d091a0ee6bd48bdfbc9ace6f8f42, type: 3}
-  m_ShaderKeywords: _EMISSION _USECOLOR_ON _USEMAINTEX_ON
+  m_Shader: {fileID: 4800000, guid: 0118fa4f1c88b4640b193eca2c181644, type: 3}
+  m_ShaderKeywords: _EMISSION _USECOLOR_ON
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -96,7 +96,7 @@ Material:
       second: 0
     - first:
         name: _Gloss
-      second: 0.5
+      second: 0
     - first:
         name: _GlossMapScale
       second: 1
@@ -123,7 +123,7 @@ Material:
       second: 0
     - first:
         name: _Specular
-      second: 0.5
+      second: 1
     - first:
         name: _SpecularHighlights
       second: 1
@@ -144,7 +144,7 @@ Material:
       second: 0
     - first:
         name: _UseMainTex
-      second: 1
+      second: 0
     - first:
         name: _ZTest
       second: 4
@@ -160,4 +160,4 @@ Material:
       second: {r: 0, g: 0, b: 0, a: 1}
     - first:
         name: _SpecColor
-      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0}
